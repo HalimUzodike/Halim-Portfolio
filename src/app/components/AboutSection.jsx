@@ -68,7 +68,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack software engineer with a passion for creating
+            I am a full-stack software engineer with a passion for creating
             interactive and responsive web applications. I have experience working with
             Java, JavaScript, Python, C/C++, Rust, TypeScript, React, Node.js, Express.js, Spring Boot, SQL, HTML, CSS, and many more technologies.
             I am adept at both frontend and backend development, and always
