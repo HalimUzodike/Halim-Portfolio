@@ -5,24 +5,40 @@ import TabButton from "./TabButton";
 
 const TAB_DATA = [
   {
-    title: "Skills",
-    id: "skills",
+    title: "Frontend Skills",
+    id: "frontend",
     content: (
         <ul className="list-disc pl-2">
-            <li>Node.js</li>
-            <li>Express</li>
-            <li>MySQL</li>
             <li>TypeScript</li>
             <li>JavaScript</li>
-            <li>Python</li>
-            <li>Flask</li>
-            <li>C/C++</li>
+            <li>Oracle JET</li>
+            <li>NestJS</li>
             <li>React</li>
-            <li>Microservices</li>
+
         </ul>
     ),
   },
-  {
+    {
+        title: "Backend Skills",
+        id: "backend",
+        content: (
+            <ul className="list-disc pl-2">
+                <li>Microservices</li>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>Flask</li>
+                <li>Python</li>
+                <li>Spring Boot</li>
+                <li>Java</li>
+                <li>C/C++/CUDA</li>
+                <li>Go</li>
+                <li>Rust</li>
+                <li>AWS, GCP, OCI</li>
+                <li>MySQL, PostgreSQL, SQLite</li>
+            </ul>
+        ),
+    },
+    {
     title: "Education",
     id: "education",
     content: (
@@ -32,20 +48,11 @@ const TAB_DATA = [
       </ul>
     ),
   },
-  // {
-  //   title: "Certifications",
-  //   id: "certifications",
-  //   content: (
-  //     <ul className="list-disc pl-2">
-  //       <li>AWS Cloud Practitioner</li>
-  //       <li>Google Professional Cloud Developer</li>
-  //     </ul>
-  //   ),
-  // },
+
 ];
 
 const AboutSection = () => {
-  const [tab, setTab] = useState("skills");
+  const [tab, setTab] = useState("frontend");
   const [isPending, startTransition] = useTransition();
 
   const handleTabChange = (id) => {
@@ -61,35 +68,35 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with Python, Java, Spring boot, C/C++, Rust, JavaScript/TypeScript, React, Redux, Node.js, Express, MySQL,
-            Flask, HTML, CSS, Git and many more. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            I am a full stack software engineer with a passion for creating
+            interactive and responsive web applications. I have experience working with
+            Java, JavaScript, Python, C/C++, Rust, TypeScript, React, Node.js, Express.js, Spring Boot, SQL, HTML, CSS, and many more technologies.
+            I am adept at both frontend and backend development, and always
+            looking to expand my knowledge and skill set. As a team player with experience in collaborative projects,
+            I am excited to work with others to create impactful applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
-              selectTab={() => handleTabChange("skills")}
-              active={tab === "skills"}
+              selectTab={() => handleTabChange("frontend")}
+              active={tab === "frontend"}
             >
               {" "}
-              Skills{" "}
+              Frontend{" "}
             </TabButton>
             <TabButton
-              selectTab={() => handleTabChange("education")}
-              active={tab === "education"}
+              selectTab={() => handleTabChange("backend")}
+              active={tab === "backend"}
             >
               {" "}
-              Education{" "}
+              Backend{" "}
             </TabButton>
-            {/*<TabButton*/}
-            {/*  selectTab={() => handleTabChange("certifications")}*/}
-            {/*  active={tab === "certifications"}*/}
-            {/*>*/}
-            {/*  {" "}*/}
-            {/*  Certifications{" "}*/}
-            {/*</TabButton>*/}
+              <TabButton
+                  selectTab={() => handleTabChange("education")}
+                  active={tab === "education"}
+              >
+                  {" "}
+                  Education{" "}
+              </TabButton>
           </div>
           <div className="mt-8">
             {TAB_DATA.find((t) => t.id === tab).content}

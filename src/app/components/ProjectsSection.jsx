@@ -64,7 +64,7 @@ const projectsData = [
     title: "Base 64 Encoder",
     description: "encodes input data to Base64 format (Tools: Rust, Linux)",
     image: "/images/projects/encoder.png",
-    tag: ["All", "Systems"],
+    tag: ["All", "Systems", "Security"],
     gitUrl: "https://github.com/HalimUzodike/Base64_encoder",
     previewUrl: "/",
   },
@@ -107,12 +107,12 @@ const ProjectsSection = () => {
         <ProjectTag
             onClick={handleTagChange}
             name="Security"
-            isSelected={tag === "Mobile"}
+            isSelected={tag === "Security"}
         />
         <ProjectTag
             onClick={handleTagChange}
             name="Systems"
-            isSelected={tag === "Mobile"}
+            isSelected={tag === "Systems"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">

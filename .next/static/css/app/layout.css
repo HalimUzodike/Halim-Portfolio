@@ -644,17 +644,9 @@ video {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
-}
-.my-6 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
 }
 .mb-2 {
   margin-bottom: 0.5rem;
@@ -802,14 +794,11 @@ video {
 .gap-2 {
   gap: 0.5rem;
 }
-.gap-4 {
-  gap: 1rem;
+.gap-6 {
+  gap: 1.5rem;
 }
 .gap-8 {
   gap: 2rem;
-}
-.gap-6 {
-  gap: 1.5rem;
 }
 .place-self-center {
   place-self: center;
@@ -1221,10 +1210,6 @@ body {
 
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .md\:grid-cols-5 {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
   .md\:flex-row {
