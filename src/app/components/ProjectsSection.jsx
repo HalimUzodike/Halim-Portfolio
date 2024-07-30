@@ -7,56 +7,56 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "OWASP Juice Shop",
+    description: "Attacked the OWASP Juice Shop application and then hardened it to patch the discovered vulnerabilities",
+    image: "/images/projects/OWASPJuiceShop.png",
+    tag: ["All", "Security"],
+    gitUrl: "https://github.com/glennan93/cs467-WebsiteSecurityProject",
+    previewUrl: "https://vimeo.com/953378302?share=copy",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
+    title: "GoGato",
+    description: "Full-Stack Social Media Application (Tools: Spring boot, React, Docker, Microservice Architecture, MVC)",
+    image: "/images/projects/GoGato.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/Revature-GoGato",
+    previewUrl: "https://gogatotest.vercel.app/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
+    title: "Small Shell",
+    description: "Custom Unix shell (Tools: C, Linux)",
+    image: "/images/projects/SmallshImage.png",
+    tag: ["All", "Operating Systems"],
+    gitUrl: "https://github.com/HalimUzodike/Unix_Shell",
     previewUrl: "/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
+    title: "One-Time Pads",
+    description: "Secure communication system implementing One-Time Pad encryption (Tools: C, Linux)",
+    image: "/images/projects/otp.png",
+    tag: ["All", "Cryptography", "Operating Systems"],
+    gitUrl: "https://github.com/HalimUzodike/One-Time-Pads",
     previewUrl: "/",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
+    title: "Tarpaulin Course Management Tool",
+    description: "Alternative to the Canvas and Blackboard learning management tools Authentication and CRUD operations (Tools: GCP, Flask, Cloud Storage, Datastore, JWTs)",
+    image: "/images/projects/tarpaulin.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/HalimUzodike/Tarpaulin-Course-Management-Tool",
     previewUrl: "/",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
+    title: "Hangman Client-Server Game",
+    description: "A simple implementation of the classic Hangman game using a client-server architecture",
+    image: "/images/projects/hang.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/HalimUzodike/Client-Server-Chat-Game",
     previewUrl: "/",
   },
 ];
@@ -97,8 +97,18 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
+          name="Cryptography"
           isSelected={tag === "Mobile"}
+        />
+        <ProjectTag
+            onClick={handleTagChange}
+            name="Security"
+            isSelected={tag === "Mobile"}
+        />
+        <ProjectTag
+            onClick={handleTagChange}
+            name="Operating Systems"
+            isSelected={tag === "Mobile"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">

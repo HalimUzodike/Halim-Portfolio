@@ -9,15 +9,16 @@ const TAB_DATA = [
     id: "skills",
     content: (
         <ul className="list-disc pl-2">
-          <li>Node.js</li>
-          <li>Express</li>
-          <li>MySQL</li>
-          <li>TypeScript</li>
-          <li>JavaScript</li>
-          <li>Python</li>
-          <li>Flask</li>
-          <li>C/C++</li>
-          <li>React</li>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>MySQL</li>
+            <li>TypeScript</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Flask</li>
+            <li>C/C++</li>
+            <li>React</li>
+            <li>Microservices</li>
         </ul>
     ),
   },
@@ -26,21 +27,21 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Oregon State University</li>
-        <li>University of Maryland, Baltimore County</li>
+        <li>BS Computer Science from Oregon State University</li>
+        <li>BA Psychology from University of Maryland, Baltimore County</li>
       </ul>
     ),
   },
-  {
-    title: "Certifications",
-    id: "certifications",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
-      </ul>
-    ),
-  },
+  // {
+  //   title: "Certifications",
+  //   id: "certifications",
+  //   content: (
+  //     <ul className="list-disc pl-2">
+  //       <li>AWS Cloud Practitioner</li>
+  //       <li>Google Professional Cloud Developer</li>
+  //     </ul>
+  //   ),
+  // },
 ];
 
 const AboutSection = () => {
@@ -82,13 +83,13 @@ const AboutSection = () => {
               {" "}
               Education{" "}
             </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
-            >
-              {" "}
-              Certifications{" "}
-            </TabButton>
+            {/*<TabButton*/}
+            {/*  selectTab={() => handleTabChange("certifications")}*/}
+            {/*  active={tab === "certifications"}*/}
+            {/*>*/}
+            {/*  {" "}*/}
+            {/*  Certifications{" "}*/}
+            {/*</TabButton>*/}
           </div>
           <div className="mt-8">
             {TAB_DATA.find((t) => t.id === tab).content}
