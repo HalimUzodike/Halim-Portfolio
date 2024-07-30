@@ -28,7 +28,7 @@ const projectsData = [
     title: "Small Shell",
     description: "Custom Unix shell (Tools: C, Linux)",
     image: "/images/projects/SmallshImage.png",
-    tag: ["All", "Operating Systems"],
+    tag: ["All", "Systems"],
     gitUrl: "https://github.com/HalimUzodike/Unix_Shell",
     previewUrl: "/",
   },
@@ -37,7 +37,7 @@ const projectsData = [
     title: "One-Time Pads",
     description: "Secure communication system implementing One-Time Pad encryption (Tools: C, Linux)",
     image: "/images/projects/otp.png",
-    tag: ["All", "Cryptography", "Operating Systems"],
+    tag: ["All", "Cryptography", "Systems"],
     gitUrl: "https://github.com/HalimUzodike/One-Time-Pads",
     previewUrl: "/",
   },
@@ -57,6 +57,15 @@ const projectsData = [
     image: "/images/projects/hang.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/HalimUzodike/Client-Server-Chat-Game",
+    previewUrl: "/",
+  },
+  {
+    id: 7,
+    title: "Base 64 Encoder",
+    description: "Base 64 encoder built with Rust",
+    image: "/images/projects/encoder.png",
+    tag: ["All", "Systems"],
+    gitUrl: "https://github.com/HalimUzodike/Base64_encoder",
     previewUrl: "/",
   },
 ];
@@ -107,7 +116,7 @@ const ProjectsSection = () => {
         />
         <ProjectTag
             onClick={handleTagChange}
-            name="Operating Systems"
+            name="Systems"
             isSelected={tag === "Mobile"}
         />
       </div>
