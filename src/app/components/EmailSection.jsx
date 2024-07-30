@@ -48,34 +48,17 @@ const EmailSection = () => {
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10 text-center max-w-md flex flex-col items-center">
         <h5 className="text-4xl font-bold text-white mb-6">
-          Let&apos;s Connect
+          Connect with me
         </h5>
-        <p className="text-[#ADB7BE] mb-4 max-w-md">
-          {" "}
-          I&apos;m currently looking for new opportunities, my inbox is always
-          open. Whether you have a question or just want to say hi, I&apos;ll
-          try my best to get back to you!
-        </p>
-        {/*<div className="socials flex flex-row gap-2">*/}
-        {/*  <Link href="https://github.com/HalimUzodike">*/}
-        {/*    <Image src={GithubIcon} alt="Github Icon" />*/}
-        {/*  </Link>*/}
-        {/*  <Link href="https://www.linkedin.com/in/halim-uzodike-a1b2016b/">*/}
-        {/*    <Image src={LinkedinIcon} alt="Linkedin Icon" />*/}
-        {/*  </Link>*/}
-        {/*  <Link href="https://mailto:halimuzodike@gmail.com" rel="noopener noreferrer" target="_blank">*/}
-        {/*    <Image src={GmailIcon} alt="Halim Uzodike- Gmail Icon" />*/}
-        {/*  </Link>*/}
-        {/*</div>*/}
         <div className="socials flex justify-center gap-6">
           <Link href="https://github.com/HalimUzodike">
-            <Image src={GithubIcon} alt="Github Icon" width={60} height={60}/>
+            <Image src={GithubIcon} alt="Github Icon" width={70} height={70}/>
           </Link>
           <Link href="https://www.linkedin.com/in/halim-uzodike-a1b2016b/">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" width={60} height={60}/>
+            <Image src={LinkedinIcon} alt="Linkedin Icon" width={70} height={70}/>
           </Link>
           <Link href="https://mailto:halimuzodike@gmail.com" rel="noopener noreferrer" target="_blank">
-            <Image src={GmailIcon} alt="Halim Uzodike- Gmail Icon" width={60} height={60}/>
+            <Image src={GmailIcon} alt="Halim Uzodike- Gmail Icon" width={70} height={70}/>
           </Link>
         </div>
       </div>
