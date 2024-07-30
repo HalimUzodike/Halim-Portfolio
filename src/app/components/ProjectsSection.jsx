@@ -37,7 +37,7 @@ const projectsData = [
     title: "One-Time Pads",
     description: "Secure communication system implementing One-Time Pad encryption (Tools: C, Linux)",
     image: "/images/projects/otp.png",
-    tag: ["All", "Cryptography", "Systems"],
+    tag: ["All", "Security", "Systems"],
     gitUrl: "https://github.com/HalimUzodike/One-Time-Pads",
     previewUrl: "/",
   },
@@ -53,7 +53,7 @@ const projectsData = [
   {
     id: 6,
     title: "Hangman Client-Server Game",
-    description: "A simple implementation of the classic Hangman game using a client-server architecture",
+    description: "A simple implementation of the classic Hangman game using a client-server architecture (Tools: Python)",
     image: "/images/projects/hang.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/HalimUzodike/Client-Server-Chat-Game",
@@ -62,7 +62,7 @@ const projectsData = [
   {
     id: 7,
     title: "Base 64 Encoder",
-    description: "Base 64 encoder built with Rust",
+    description: "encodes input data to Base64 format (Tools: Rust, Linux)",
     image: "/images/projects/encoder.png",
     tag: ["All", "Systems"],
     gitUrl: "https://github.com/HalimUzodike/Base64_encoder",
@@ -103,11 +103,6 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="Web"
           isSelected={tag === "Web"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Cryptography"
-          isSelected={tag === "Mobile"}
         />
         <ProjectTag
             onClick={handleTagChange}
