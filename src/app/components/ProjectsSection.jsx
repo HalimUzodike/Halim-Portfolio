@@ -27,7 +27,7 @@ const projectsData = [
   {
     id: 3,
     title: "Small Shell",
-    description: "Custom Unix shell (Tools: C, Linux)",
+    description: "My custom Unix shell (Tools: C, Linux)",
     image: "/Halim-Portfolio/p3.png",
     tag: ["All", "Systems"],
     gitUrl: "https://github.com/HalimUzodike/Unix_Shell",
@@ -63,7 +63,7 @@ const projectsData = [
   {
     id: 7,
     title: "Base 64 Encoder",
-    description: "encodes input data to Base64 format (Tools: Rust, Linux)",
+    description: "Encodes input data to Base64 format (Tools: Rust, Linux)",
     image: "/Halim-Portfolio/p7.png",
     tag: ["All", "Systems", "Security"],
     gitUrl: "https://github.com/HalimUzodike/Base64_encoder",
