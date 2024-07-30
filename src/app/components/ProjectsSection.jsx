@@ -4,12 +4,13 @@ import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
+
 const projectsData = [
   {
     id: 1,
     title: "OWASP Juice Shop",
     description: "Attacked the OWASP Juice Shop application and then hardened it to patch the discovered vulnerabilities",
-    image: "/images/projects/OWASPJuiceShop.png",
+    image: "/p1.png",
     tag: ["All", "Security"],
     gitUrl: "https://github.com/glennan93/cs467-WebsiteSecurityProject",
     previewUrl: "https://vimeo.com/953378302?share=copy",
@@ -18,7 +19,7 @@ const projectsData = [
     id: 2,
     title: "GoGato",
     description: "Full-Stack Social Media Application (Tools: Spring boot, React, Docker, Microservice Architecture, MVC)",
-    image: "/images/projects/GoGato.png",
+    image: "/p2.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Revature-GoGato",
     previewUrl: "https://gogatotest.vercel.app/",
@@ -27,7 +28,7 @@ const projectsData = [
     id: 3,
     title: "Small Shell",
     description: "Custom Unix shell (Tools: C, Linux)",
-    image: "/images/projects/SmallshImage.png",
+    image: "/p3.png",
     tag: ["All", "Systems"],
     gitUrl: "https://github.com/HalimUzodike/Unix_Shell",
     previewUrl: "/",
@@ -36,7 +37,7 @@ const projectsData = [
     id: 4,
     title: "One-Time Pads",
     description: "Secure communication system implementing One-Time Pad encryption (Tools: C, Linux)",
-    image: "/images/projects/otp.png",
+    image: "/p4.png",
     tag: ["All", "Security", "Systems"],
     gitUrl: "https://github.com/HalimUzodike/One-Time-Pads",
     previewUrl: "/",
@@ -45,7 +46,7 @@ const projectsData = [
     id: 5,
     title: "Tarpaulin Course Management Tool",
     description: "Alternative to the Canvas and Blackboard learning management tools Authentication and CRUD operations (Tools: GCP, Flask, Cloud Storage, Datastore, JWTs)",
-    image: "/images/projects/tarpaulin.png",
+    image: "/p5.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/HalimUzodike/Tarpaulin-Course-Management-Tool",
     previewUrl: "/",
@@ -54,7 +55,7 @@ const projectsData = [
     id: 6,
     title: "Hangman Client-Server Game",
     description: "A simple implementation of the classic Hangman game using a client-server architecture (Tools: Python)",
-    image: "/images/projects/hang.png",
+    image: "/p6.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/HalimUzodike/Client-Server-Chat-Game",
     previewUrl: "/",
@@ -63,7 +64,7 @@ const projectsData = [
     id: 7,
     title: "Base 64 Encoder",
     description: "encodes input data to Base64 format (Tools: Rust, Linux)",
-    image: "/images/projects/encoder.png",
+    image: "/p7.png",
     tag: ["All", "Systems", "Security"],
     gitUrl: "https://github.com/HalimUzodike/Base64_encoder",
     previewUrl: "/",
