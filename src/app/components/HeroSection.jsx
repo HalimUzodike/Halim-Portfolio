@@ -26,12 +26,12 @@ const HeroSection = () => {
                 1000,
                 "Web Developer",
                 1000,
-                "Backend Engineer",
+                "Backend Dev",
                 1000,
-                "UI/UX Engineer",
+                "UI/UX Dev",
                 1000,
-                  "Environmentalist",
-                  1000,
+                "Environmentalist",
+                1000,
               ]}
               wrapper="span"
               speed={50}
@@ -39,7 +39,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-              Enthusiastic and experienced full-stack developer with expertise in Java, Python and TypeScript.
+              Enthusiastic new graduate software engineer with expertise in Java, Python and, TypeScript.
               Seeking opportunities to make transformative impact in a tech organization.
           </p>
           <div>
