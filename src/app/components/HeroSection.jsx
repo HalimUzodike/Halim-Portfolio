@@ -40,7 +40,7 @@ const HeroSection = () => {
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
               Enthusiastic and experienced full-stack developer with expertise in Java, Python and TypeScript.
-              Seeking opportunities to make transformative  impact in a tech organization.
+              Seeking opportunities to make transformative impact in a tech organization.
           </p>
           <div>
             <Link
