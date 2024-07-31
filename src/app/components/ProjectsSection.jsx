@@ -11,7 +11,7 @@ const projectsData = [
     title: "OWASP Juice Shop",
     description: "Attacked the OWASP Juice Shop application and then hardened it to patch the discovered vulnerabilities",
     image: "/Halim-Portfolio/p1.png",
-    tag: ["All", "Security"],
+    tag: ["All", "Web"],
     gitUrl: "https://github.com/glennan93/cs467-WebsiteSecurityProject",
     previewUrl: "https://vimeo.com/953378302?share=copy",
   },
@@ -38,7 +38,7 @@ const projectsData = [
     title: "One-Time Pads",
     description: "Secure communication system implementing One-Time Pad encryption (Tools: C, Linux)",
     image: "/Halim-Portfolio/p4.png",
-    tag: ["All", "Security", "Systems"],
+    tag: ["All", "Systems"],
     gitUrl: "https://github.com/HalimUzodike/One-Time-Pads",
     previewUrl: "/",
   },
@@ -65,7 +65,7 @@ const projectsData = [
     title: "Base 64 Encoder",
     description: "Encodes input data to Base64 format (Tools: Rust, Linux)",
     image: "/Halim-Portfolio/p7.png",
-    tag: ["All", "Systems", "Security"],
+    tag: ["All", "Systems"],
     gitUrl: "https://github.com/HalimUzodike/Base64_encoder",
     previewUrl: "/",
   },
@@ -104,11 +104,6 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="Web"
           isSelected={tag === "Web"}
-        />
-        <ProjectTag
-            onClick={handleTagChange}
-            name="Security"
-            isSelected={tag === "Security"}
         />
         <ProjectTag
             onClick={handleTagChange}
