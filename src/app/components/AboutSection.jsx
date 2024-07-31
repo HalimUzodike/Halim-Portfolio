@@ -14,7 +14,6 @@ const TAB_DATA = [
             <li>Oracle JET</li>
             <li>NestJS</li>
             <li>React</li>
-
         </ul>
     ),
   },
@@ -30,11 +29,24 @@ const TAB_DATA = [
                 <li>Python</li>
                 <li>Spring Boot</li>
                 <li>Java</li>
-                <li>C/C++/CUDA</li>
                 <li>Go</li>
+                <li>C/C++/CUDA</li>
                 <li>Rust</li>
                 <li>AWS, GCP, OCI</li>
                 <li>MySQL, PostgreSQL, SQLite</li>
+            </ul>
+        ),
+    },
+    {
+        title: "DevOps",
+        id: "devops",
+        content: (
+            <ul className="list-disc pl-2">
+                <li>GitHub Actions</li>
+                <li>Docker</li>
+                <li>Jenkins</li>
+                <li>Kubernetes</li>
+                <li>Gradle</li>
             </ul>
         ),
     },
@@ -90,6 +102,13 @@ const AboutSection = () => {
               {" "}
               Backend{" "}
             </TabButton>
+              <TabButton
+                  selectTab={() => handleTabChange("devops")}
+                  active={tab === "devops"}
+              >
+                  {" "}
+                  DevOps{" "}
+              </TabButton>
               <TabButton
                   selectTab={() => handleTabChange("education")}
                   active={tab === "education"}
