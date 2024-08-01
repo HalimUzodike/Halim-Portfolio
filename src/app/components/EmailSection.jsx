@@ -57,7 +57,7 @@ const EmailSection = () => {
           <Link href="https://www.linkedin.com/in/halim-uzodike-a1b2016b/">
             <Image src={LinkedinIcon} alt="Linkedin Icon" width={70} height={70}/>
           </Link>
-          <Link href="mailto:halimuzodike@gmail.com" rel="noopener noreferrer">
+          <Link href="mailto:halimuzodike@gmail.com" rel="noopener noreferrer" target="_blank">
             <Image src={GmailIcon} alt="Halim Uzodike- Gmail Icon" width={70} height={70}/>
           </Link>
         </div>
