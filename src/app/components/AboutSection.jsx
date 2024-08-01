@@ -23,6 +23,7 @@ const TAB_DATA = [
         content: (
             <ul className="list-disc pl-2">
                 <li>Microservices</li>
+                <li>MVC architecture</li>
                 <li>Node.js</li>
                 <li>Express</li>
                 <li>Flask</li>
@@ -32,8 +33,10 @@ const TAB_DATA = [
                 <li>Go</li>
                 <li>C/C++/CUDA</li>
                 <li>Rust</li>
-                <li>AWS, GCP, OCI</li>
+                <li>GCP, AWS, OCI</li>
                 <li>MySQL, PostgreSQL, SQLite</li>
+                <li>MongoDB</li>
+                <li>Firebase, Cloud Firestore</li>
             </ul>
         ),
     },
@@ -82,7 +85,7 @@ const AboutSection = () => {
           <p className="text-base lg:text-lg">
             I am a full-stack software engineer with a passion for creating
             interactive and responsive web applications. I have experience working with
-            Java, JavaScript, Python, C/C++, Rust, TypeScript, React, Node.js, Express.js, Spring Boot, SQL, HTML, CSS, and many more technologies.
+            Go, Java, JavaScript, Python, C/C++, Rust, TypeScript, React, Node.js, Express.js, Spring Boot, Firebase, NoSQL, SQL, and many more technologies.
             I am adept at both frontend and backend development, and always
             looking to expand my knowledge and skill set. As a team player with experience in collaborative projects,
             I am excited to work with others to create impactful applications.
@@ -117,7 +120,7 @@ const AboutSection = () => {
                   Education{" "}
               </TabButton>
           </div>
-          <div className="mt-8">
+          <div className="mt-8 h-[200px] overflow-y-auto">
             {TAB_DATA.find((t) => t.id === tab).content}
           </div>
         </div>
