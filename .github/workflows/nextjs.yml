@@ -94,5 +94,3 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-env:
-  RESEND_API_KEY: re_EC9yEG6W_C5mgxrRCS4C5iDoW1PR1yq3A
