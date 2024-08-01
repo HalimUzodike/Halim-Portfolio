@@ -12,7 +12,7 @@ const TAB_DATA = [
             <li>TypeScript</li>
             <li>JavaScript</li>
             <li>Oracle JET</li>
-            <li>NestJS</li>
+            <li>NextJS</li>
             <li>React</li>
         </ul>
     ),
