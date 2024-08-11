@@ -35,7 +35,7 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "One-Time Pads",
+    title: "One-Time Pad",
     description: "Secure communication system implementing One-Time Pad encryption (Tools: C, Linux)",
     image: "/Halim-Portfolio/p4.png",
     tag: ["All", "Systems"],
