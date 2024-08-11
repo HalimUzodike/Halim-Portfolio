@@ -69,6 +69,24 @@ const projectsData = [
     gitUrl: "https://github.com/HalimUzodike/Base64_encoder",
     previewUrl: "/",
   },
+  {
+    id: 8,
+    title: "HalimSearch",
+    description: "Full-Stack Search Engine. Work in progress (Tools: Go, Fiber, Next.js, PostgreSQL)",
+    image: "/Halim-Portfolio/p8.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/HalimUzodike/HalimSearch",
+    previewUrl: "/",
+  },
+  {
+    id: 9,
+    title: "PanApp",
+    description: "Pantry Application. Work in progress (Tools: Next.js, Firebase, Material-UI, TypeScript)",
+    image: "/Halim-Portfolio/p9.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/HalimUzodike/Panapp",
+    previewUrl: "/",
+  },
 ];
 
 const ProjectsSection = () => {
