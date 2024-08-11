@@ -51,10 +51,10 @@ const EmailSection = () => {
           Connect with me
         </h5>
         <div className="socials flex justify-center gap-6">
-          <Link href="https://github.com/HalimUzodike">
+          <Link href="https://github.com/HalimUzodike" rel="noopener noreferrer" target="_blank">
             <Image src={GithubIcon} alt="Github Icon" width={70} height={70}/>
           </Link>
-          <Link href="https://www.linkedin.com/in/halim-uzodike-a1b2016b/">
+          <Link href="https://www.linkedin.com/in/halim-uzodike-a1b2016b/" rel="noopener noreferrer" target="_blank">
             <Image src={LinkedinIcon} alt="Linkedin Icon" width={70} height={70}/>
           </Link>
           <Link href="mailto:halimuzodike@gmail.com" rel="noopener noreferrer" target="_blank">
