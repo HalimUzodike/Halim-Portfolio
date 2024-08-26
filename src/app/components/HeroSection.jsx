@@ -26,7 +26,7 @@ const HeroSection = () => {
                 1000,
                 "API Engineer",
                 1000,
-                "Backend Engineer",
+                "Backend Dev",
                 1000,
                 "SRE Engineer",
                 1000,
