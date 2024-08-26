@@ -34,7 +34,6 @@ const TAB_DATA = [
                 <li>C/C++/CUDA</li>
                 <li>Rust</li>
                 <li>MySQL, PostgreSQL, SQLite</li>
-                <li>MongoDB</li>
             </ul>
         ),
     },
@@ -50,6 +49,8 @@ const TAB_DATA = [
                 <li>Terraform</li>
                 <li>GCP, AWS, OCI</li>
                 <li>Linux</li>
+                <li>Shell Scripting</li>
+                <li>MongoDB</li>
                 <li>Firebase, Cloud Firestore</li>
             </ul>
         ),
