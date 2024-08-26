@@ -33,10 +33,8 @@ const TAB_DATA = [
                 <li>Go</li>
                 <li>C/C++/CUDA</li>
                 <li>Rust</li>
-                <li>GCP, AWS, OCI</li>
                 <li>MySQL, PostgreSQL, SQLite</li>
                 <li>MongoDB</li>
-                <li>Firebase, Cloud Firestore</li>
             </ul>
         ),
     },
@@ -49,12 +47,15 @@ const TAB_DATA = [
                 <li>Docker</li>
                 <li>Jenkins</li>
                 <li>Kubernetes</li>
-                <li>Gradle</li>
+                <li>Terraform</li>
+                <li>GCP, AWS, OCI</li>
+                <li>Linux</li>
+                <li>Firebase, Cloud Firestore</li>
             </ul>
         ),
     },
     {
-    title: "Education",
+        title: "Education",
     id: "education",
     content: (
       <ul className="list-disc pl-2">
