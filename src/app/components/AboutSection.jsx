@@ -38,8 +38,8 @@ const TAB_DATA = [
         ),
     },
     {
-        title: "DevOps",
-        id: "devops",
+        title: "Site Reliability Engineering & DevOps",
+        id: "site-reliability-engineering",
         content: (
             <ul className="list-disc pl-2">
                 <li>GitHub Actions</li>
@@ -108,11 +108,11 @@ const AboutSection = () => {
               Backend{" "}
             </TabButton>
               <TabButton
-                  selectTab={() => handleTabChange("devops")}
-                  active={tab === "devops"}
+                  selectTab={() => handleTabChange("site-reliability-engineering")}
+                  active={tab === "site-reliability-engineering"}
               >
                   {" "}
-                  DevOps{" "}
+                  Site Reliability Engineering & DevOps{" "}
               </TabButton>
               <TabButton
                   selectTab={() => handleTabChange("education")}
