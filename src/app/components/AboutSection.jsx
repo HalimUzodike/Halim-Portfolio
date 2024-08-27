@@ -47,14 +47,6 @@ const TAB_DATA = [
                 <li>GCP, AWS, OCI</li>
                 <li>Linux</li>
                 <li>Shell Scripting</li>
-            </ul>
-        ),
-    },
-    {
-        title: "Databases",
-        id: "databases",
-        content: (
-            <ul className="list-disc pl-2">
                 <li>MySQL, PostgreSQL, SQLite</li>
                 <li>MongoDB</li>
                 <li>Firebase, Cloud Firestore, Supabase</li>
@@ -63,10 +55,10 @@ const TAB_DATA = [
     },
     {
         title: "Education",
-    id: "education",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>MS Computer Science from Georgia Institute of Technology</li>
+        id: "education",
+        content: (
+            <ul className="list-disc pl-2">
+            <li>MS Computer Science from Georgia Institute of Technology</li>
         <li>BS Computer Science from Oregon State University</li>
         <li>BA Psychology from University of Maryland, Baltimore County</li>
       </ul>
@@ -120,13 +112,6 @@ const AboutSection = () => {
               >
                   {" "}
                   SRE & DevOps{" "}
-              </TabButton>
-              <TabButton
-                  selectTab={() => handleTabChange("databases")}
-                  active={tab === "databases"}
-              >
-                  {" "}
-                  Databases{" "}
               </TabButton>
               <TabButton
                   selectTab={() => handleTabChange("education")}
