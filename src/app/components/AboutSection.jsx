@@ -85,10 +85,10 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full-stack software engineer with a passion for creating
-            interactive and responsive web applications. I have experience working with
-            Go, Java, JavaScript, Python, C/C++, Rust, TypeScript, React, Node.js, Express.js, Spring Boot, Firebase, NoSQL, SQL, and many more technologies.
-            I am adept at both frontend and backend development, and always
+            I am a software engineer with a passion for creating
+            interactive and responsive web applications and maintaining them. I have experience working with
+            Go, Python, C/C++/CUDA, Rust, TypeScript, Terraform, Next.js, Docker, Kubernetes, Firebase, NoSQL and SQL.
+            I am adept at both backend development and devops tooling, and always
             looking to expand my knowledge and skill set. As a team player with experience in collaborative projects,
             I am excited to work with others to create impactful applications.
           </p>
