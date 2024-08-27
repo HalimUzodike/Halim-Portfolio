@@ -112,7 +112,7 @@ const AboutSection = () => {
                   active={tab === "site-reliability-engineering"}
               >
                   {" "}
-                  Site Reliability Engineering & DevOps{" "}
+                  SRE & DevOps{" "}
               </TabButton>
               <TabButton
                   selectTab={() => handleTabChange("education")}
