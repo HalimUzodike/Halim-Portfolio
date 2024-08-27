@@ -36,7 +36,7 @@ const projectsData = [
   {
     id: 4,
     title: "One-Time Pad",
-    description: "Secure communication system implementing One-Time Pad encryption (Tools: C, Linux)",
+    description: "Secure communication system implementing One-Time Pad encryption (Tools: C, Linux, Cryptography)",
     image: "/Halim-Portfolio/p4.png",
     tag: ["All", "Systems"],
     gitUrl: "https://github.com/HalimUzodike/One-Time-Pads",
@@ -72,7 +72,7 @@ const projectsData = [
   {
     id: 8,
     title: "HalimSearch",
-    description: "Full-Stack Search Engine. Work in progress (Tools: Go, Fiber, Next.js, PostgreSQL)",
+    description: "Demo Search Engine. Work in progress (Tools: Go, Fiber, Templ, PostgreSQL)",
     image: "/Halim-Portfolio/p8.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/HalimUzodike/HalimSearch",
@@ -81,7 +81,7 @@ const projectsData = [
   {
     id: 9,
     title: "PanApp",
-    description: "Pantry Application. Work in progress (Tools: Next.js, Firebase, Material-UI, TypeScript)",
+    description: "Pantry Application. Work in progress (Tools: Next.js, Firebase, Material-UI, JavaScript)",
     image: "/Halim-Portfolio/p9.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/HalimUzodike/Panapp",
