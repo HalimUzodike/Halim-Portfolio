@@ -122,15 +122,15 @@ const AboutSection = () => {
                   SRE & DevOps{" "}
               </TabButton>
               <TabButton
-                  selectTab={() => handleTabChange("education")}
-                  active={tab === "education"}
+                  selectTab={() => handleTabChange("databases")}
+                  active={tab === "databases"}
               >
                   {" "}
                   Databases{" "}
               </TabButton>
               <TabButton
-                  selectTab={() => handleTabChange("databases")}
-                  active={tab === "databases"}
+                  selectTab={() => handleTabChange("education")}
+                  active={tab === "education"}
               >
                   {" "}
                   Education{" "}
