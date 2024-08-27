@@ -22,8 +22,6 @@ const TAB_DATA = [
         id: "backend",
         content: (
             <ul className="list-disc pl-2">
-                <li>Microservices</li>
-                <li>MVC architecture</li>
                 <li>Node.js</li>
                 <li>Express</li>
                 <li>Flask</li>
@@ -33,12 +31,11 @@ const TAB_DATA = [
                 <li>Go</li>
                 <li>C/C++/CUDA</li>
                 <li>Rust</li>
-                <li>MySQL, PostgreSQL, SQLite</li>
             </ul>
         ),
     },
     {
-        title: "Site Reliability Engineering & DevOps",
+        title: "DevOps and Infrastructure Skills",
         id: "site-reliability-engineering",
         content: (
             <ul className="list-disc pl-2">
@@ -50,8 +47,17 @@ const TAB_DATA = [
                 <li>GCP, AWS, OCI</li>
                 <li>Linux</li>
                 <li>Shell Scripting</li>
+            </ul>
+        ),
+    },
+    {
+        title: "Databases",
+        id: "databases",
+        content: (
+            <ul className="list-disc pl-2">
+                <li>MySQL, PostgreSQL, SQLite</li>
                 <li>MongoDB</li>
-                <li>Firebase, Cloud Firestore</li>
+                <li>Firebase, Cloud Firestore, Supabase</li>
             </ul>
         ),
     },
@@ -60,6 +66,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
+        <li>MS Computer Science from Georgia Institute of Technology</li>
         <li>BS Computer Science from Oregon State University</li>
         <li>BA Psychology from University of Maryland, Baltimore County</li>
       </ul>
@@ -87,7 +94,7 @@ const AboutSection = () => {
           <p className="text-base lg:text-lg">
             I am a software engineer with a passion for creating
             interactive and responsive web applications and maintaining them. I have experience working with
-            Go, Python, C/C++/CUDA, Rust, TypeScript, Terraform, Next.js, Docker, Kubernetes, Firebase, NoSQL and SQL.
+            Go, Python, C/C++/CUDA, Rust, TypeScript, Terraform, Next.js, Docker, Kubernetes, Firebase, Supabase, NoSQL and SQL.
             I am adept at both backend development and devops tooling, and always
             looking to expand my knowledge and skill set. As a team player with experience in collaborative projects,
             I am excited to work with others to create impactful applications.
@@ -117,6 +124,13 @@ const AboutSection = () => {
               <TabButton
                   selectTab={() => handleTabChange("education")}
                   active={tab === "education"}
+              >
+                  {" "}
+                  Databases{" "}
+              </TabButton>
+              <TabButton
+                  selectTab={() => handleTabChange("databases")}
+                  active={tab === "databases"}
               >
                   {" "}
                   Education{" "}
