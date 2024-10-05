@@ -78,15 +78,6 @@ const projectsData = [
     gitUrl: "https://github.com/HalimUzodike/HalimSearch",
     previewUrl: "/",
   },
-  {
-    id: 9,
-    title: "PanApp",
-    description: "Pantry Application. Work in progress (Tools: Next.js, Firebase, Material-UI, JavaScript)",
-    image: "/Halim-Portfolio/p9.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/HalimUzodike/Panapp",
-    previewUrl: "/",
-  },
 ];
 
 const ProjectsSection = () => {
