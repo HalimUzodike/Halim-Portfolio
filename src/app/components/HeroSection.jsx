@@ -36,7 +36,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-              Enthusiastic new graduate software engineer with expertise in Go, Python and, GCP.
+              Enthusiastic software engineer with expertise in Ruby, Go, Python, Rust, and GCP.
               Seeking opportunities to make transformative impact in a tech organization.
           </p>
           <div>
