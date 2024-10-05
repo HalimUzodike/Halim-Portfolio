@@ -26,6 +26,8 @@ const TAB_DATA = [
                 <li>Express</li>
                 <li>Flask</li>
                 <li>Python</li>
+                <li>Ruby</li>
+                <li>Ruby on Rails</li>
                 <li>Spring Boot</li>
                 <li>Java</li>
                 <li>Go</li>
@@ -58,9 +60,8 @@ const TAB_DATA = [
         id: "education",
         content: (
             <ul className="list-disc pl-2">
-            <li>MS Computer Science from Georgia Institute of Technology</li>
-        <li>BS Computer Science from Oregon State University</li>
-        <li>BA Psychology from University of Maryland, Baltimore County</li>
+                <li>BS Computer Science from Oregon State University</li>
+                <li>BA Psychology from University of Maryland, Baltimore County</li>
       </ul>
     ),
   },
@@ -86,7 +87,8 @@ const AboutSection = () => {
           <p className="text-base lg:text-lg">
             I am a software engineer with a passion for creating
             interactive and responsive web applications and maintaining them. I have experience working with
-            Go, Python, C/C++/CUDA, Rust, TypeScript, Terraform, Next.js, Docker, Kubernetes, Firebase, Supabase, NoSQL and SQL.
+              Ruby on Rails, Go, Python, C/C++/CUDA, Rust, TypeScript, Terraform, Next.js, Docker, Kubernetes, Firebase,
+              Supabase, NoSQL and SQL.
             I am adept at both backend development and devops tooling, and always
             looking to expand my knowledge and skill set. As a team player with experience in collaborative projects,
             I am excited to work with others to create impactful applications.
