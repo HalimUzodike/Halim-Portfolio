@@ -69,15 +69,6 @@ const projectsData = [
     gitUrl: "https://github.com/HalimUzodike/Base64_encoder",
     previewUrl: "/",
   },
-  {
-    id: 8,
-    title: "HalimSearch",
-    description: "Demo Search Engine. Work in progress (Tools: Go, Fiber, Templ, PostgreSQL)",
-    image: "/Halim-Portfolio/p8.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/HalimUzodike/HalimSearch",
-    previewUrl: "/",
-  },
 ];
 
 const ProjectsSection = () => {
